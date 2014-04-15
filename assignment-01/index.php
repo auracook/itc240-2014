@@ -1,5 +1,11 @@
-<!doctype html>
-<html>
-Hello world!
+<?php
+$page_title = "Assignment 01 - Index Page";
+include ("header.inc");
+?>
 
-</html>
+<h2>Main Body</h2>
+<p>This is from index.php</p>
+
+<?php
+include ("footer.inc");
+?>
